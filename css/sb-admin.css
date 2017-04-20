@@ -182,6 +182,7 @@ ul.alert-dropdown {
         overflow-x: hidden;
         padding-bottom: 40px;
     }
+    
     .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
         background-color: #33363B;
     }
@@ -199,7 +200,16 @@ ul.alert-dropdown {
         background-color: #33363B !important;
     }
 }
-
+.side-footer{
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.side-footer img{
+    max-width: 100px;
+}
 .side-nav>li>ul {
     padding: 0;
 }
